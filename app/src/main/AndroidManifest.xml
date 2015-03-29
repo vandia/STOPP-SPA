@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.urjc.etsii.dlsi.pfc.stopp_spa"
+    android:installLocation="auto" >
+
+    <!--
+ To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/stopp_spa"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeFullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppThemeFullScreen"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:parentActivityName=".SplashScreenActivity">
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/title_activity_register"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".LoginActivity">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/title_activity_main"
+            android:theme="@style/ChatBackground"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu">
+        </activity>
+        <activity
+            android:name=".PasswordActivity"
+            android:theme="@style/AppThemeDialog"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".LoginActivity">
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help"
+            android:parentActivityName=".SettingsActivity">
+        </activity>
+        <activity
+            android:name=".SettingsUserActivity"
+            android:label="@string/title_activity_settings_user"
+            android:parentActivityName=".SettingsActivity">
+        </activity>
+        <activity
+            android:name=".UploadImageActivity"
+            android:label="@string/title_activity_upload_photo"
+            android:parentActivityName=".SettingsActivity">
+        </activity>
+    </application>
+
+</manifest>

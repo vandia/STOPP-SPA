@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AppThemeFullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AppThemeDialog" parent="Theme.AppCompat.Light.Dialog">
+        <!--  Customize your theme here. -->
+    </style>
+
+    <style name="ChatBackground" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/bg_msg_input</item>
+    </style>
+
+</resources>

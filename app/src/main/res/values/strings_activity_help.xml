@@ -1,0 +1,56 @@
+<resources>
+    <string name="help_text">
+        <![CDATA[
+        <p><b>MÉTODO STOPP SPA</b></p>
+        <p>Es un método para la resolución de problemas basándose en la Inteligencia Emocional.
+        Comprende la capacidad de entender y controlar los sentimientos propios y los de los demás,
+        de discriminar entre ellos y utilizar esa información como guía.
+        Este método es llamado STOPP SPA (por las siglas de los ocho pasos que lo componen) y
+        puede aplicarse a todos los problemas de la vida.
+        A continuación, los 8 pasos del método STOPP SPA junto con una serie de preguntas que
+        ayudan a aplicarlo.</p>
+        <p>
+        1. Los sentimientos propios invitan a reflexionar
+        Es importante conocer y pensar en nuestros sentimientos para reconocer el problema
+        y pensar en su resolución. Preguntarse: ¿Qué me pasa? ¿Cómo creo que se siente el otro?
+        </p>
+        <p>
+        2. Admitir que el problema existe es el primer paso
+        Esto es básico, más allá de quién sea el culpable. Hay que preguntarse:
+        ¿Qué pasó exactamente? ¿Qué fue lo que hice? ¿Qué pasó antes y después?
+        </p>
+        <p>
+        3. Los objetivos propios son una guía
+        Saber qué es lo que queremos marca el camino. Hacer una lista de los objetivos es de gran
+        ayuda. Preguntas: ¿Qué me gustaría que sucediera? ¿Qué hago para que sea realidad?
+        </p>
+        <p>
+        4. Pensar qué cosas se pueden hacer
+        Buscar todas las posibles acciones que pueden servir para conseguir los objetivos.
+        Preguntas: ¿Qué se puede hacer? ¿En qué tiempo? ¿De qué manera? ¿Se puede lograr más?
+        </p>
+        <p>
+        5. Prever el resultado con anticipación
+        Para cada acción deben pensarse también en sus consecuencias. Preguntas:
+        ¿Qué pasaría si se hace lo planeado? ¿Qué podría suceder?
+        ¿Qué podrían hacer los demás involucrados?
+        </p>
+        <p>
+        6. Seleccionar la opción más adecuada
+        De las acciones pensadas, algunas serán más fáciles de llevar a cabo o más asertivas.
+        Preguntarse: ¿Cuál es la mejor para aplicarla primero?
+        </p>
+        <p>
+        7. Planear, anticiparse y perseverar
+        Una vez determinadas las acciones conviene planificarlas y no rendirse si las cosas se
+        complican. Preguntas: ¿Qué se hará si las cosas no salen como se esperaba?
+        ¿Cuál es la salida?
+        </p>
+        <p>
+        8. Advertir qué sucedió y cómo seguir
+        Este último punto es el que evalúa los resultados del plan. Nada garantiza su éxito,
+        pero del fracaso deben obtenerse conclusiones para volver a empezar de nuevo STOPP SPA.
+        </p>
+        ]]>
+    </string>
+</resources>

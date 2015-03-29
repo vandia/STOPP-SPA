@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color_bubbles">#434343</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_msg_you">#fff4df</color>
+    <color name="bg_msg_from">#ceccd6</color>
+    <color name="bg_msg_input">#e8e8e8</color>
+    <color name="text_msg_input">#626262</color>
+    <color name="lbl_from_name">#777777</color>
+    <color name="list_item_grey">#e8e8e8</color>
+    <color name="list_item_purpure">#f7ecfd</color>
+    <color name="upload_picture_background">#e8e8e8</color>
+</resources>

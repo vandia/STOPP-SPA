@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inquiries xmlns:android="http://schemas.android.com/apk/res/android">
+    <inquiry name="PHASE_SUB_SENTIMIENTO" type="POSITIVE">feliz|cariñoso</inquiry>
+    <inquiry name="PHASE_SUB_SENTIMIENTO" type="NEGATIVE">enfadado|triste|asustado|sorprendido|culpable|asqueado</inquiry>
+    <inquiry name="PHASE_SUB_PROBLEMA" type="POSITIVE"></inquiry>
+    <inquiry name="PHASE_SUB_PROBLEMA" type="POSITIVE"></inquiry>
+</inquiries>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_settings">Configuración de usuario</string>
+    <string name="user_upload">Subir imagen de usuario</string>
+    <string name="user_help">Ayuda</string>
+    <string name="user_delete">Borrar usuario</string>
+    <string name="title_activity_settings">Configuración</string>
+    <string name="title_activity_delete_user_dialog">¡Atención!</string>
+    <string name="attention_delete_title">¿Borrar usuario?</string>
+    <string name="attention_delete_text">Se perderán todos sus datos</string>
+    <string name="settings_OK">Aceptar</string>
+    <string name="settings_Cancel">Cancelar</string>
+    <string name="title_activity_help">Ayuda</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_upload_photo">Subir imagen</string>
+
+</resources>

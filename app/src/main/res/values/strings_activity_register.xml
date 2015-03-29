@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_password">Password (opcional)</string>
+    <string name="action_register_in">Regístrate</string>
+    <string name="action_register_in_button">Regístrate</string>
+    <string name="label_age">Edad</string>
+    <string name="label_agent_selection">Selecciona con quien quieres hablar: </string>
+    <string name="error_name_already_exists">Este usuario ya existe.</string>
+    <string name="error_invalid_name">El usuario no pudo crearse.</string>
+    <string name="error_invalid_password">El password debe tener entre 4 y 6 caracteres</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">No puede estar vacío</string>
+    <string name="error_unexpected">Error inesperado.</string>
+    <string name="title_activity_register">Regístrate</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="title_activity_login">Entrar</string>
+
+    <!-- Strings related to login -->
+
+    <string name="select_name">Selecciona tu nombre</string>
+    <string name="action_new_user">Nuevo usuario</string>
+    <string name="login_button">Entrar</string>
+    <string name="login_password">Password</string>
+    <string name="title_activity_password">Password Activity</string>
+
+</resources>

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.urjc.etsii.dlsi.pfc.stopp_spa.MenuActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TableRow>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/statistics_button"
+                android:background="@android:color/transparent"
+                android:src="@drawable/menu_graph"
+                android:layout_column="0"
+                android:padding="15dp"
+                android:contentDescription="Estadísticas" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/talk_button"
+                android:background="@android:color/transparent"
+                android:src="@drawable/menu_bubbles"
+                android:layout_column="1"
+                android:padding="15dp"
+                android:contentDescription="Hablar con..." />
+
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/settings_button"
+                android:src="@drawable/menu_settings"
+                android:background="@android:color/transparent"
+                android:layout_column="0"
+                android:padding="15dp"
+                android:contentDescription="Configuracion" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/training_button"
+                android:background="@android:color/transparent"
+                android:src="@drawable/menu_brain"
+                android:layout_column="1"
+                android:padding="15dp"
+                android:contentDescription="Entrenamiento" />
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

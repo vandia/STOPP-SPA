@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_gravity="right">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/txtMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/shape_main_bubble_you"
+                android:textColor="@color/text_color_bubbles"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:padding="10dp"/>
+
+            <ImageView
+                android:layout_width="@dimen/user_image_bubble_width"
+                android:layout_height="@dimen/user_image_bubble_height"
+                android:id="@+id/user_image_message"
+                android:src="@drawable/user"
+                android:layout_gravity="bottom|right"
+                android:paddingLeft="5dp" />
+
+        </TableRow>
+        <TableRow android:layout_gravity="left">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/lblMsgFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/lbl_from_name"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:editable="false"
+                android:layout_gravity="right"/>
+
+        </TableRow>
+        </TableLayout>
+</LinearLayout>

@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.urjc.etsii.dlsi.pfc.stopp_spa.SettingsUserActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:divider="#ff535353"
+            android:showDividers="end">
+
+            <TableRow android:padding="10dp"
+                android:clickable="true"
+                android:onClick="OnClickChangePassword"
+                android:showDividers="end"
+                android:divider="#ff535353"
+                android:layout_width="wrap_content">
+                <!-- Datos de usuario -->
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageUserSettings"
+                    android:src="@drawable/settings_password"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/change_password"
+                    android:id="@+id/textChangePassword"
+                    android:gravity="center_vertical" />
+            </TableRow>
+            <TableRow android:padding="10dp"
+                android:clickable="true"
+                android:onClick="OnClickChangeSecurityQuestion"
+                android:showDividers="end"
+                android:divider="#ff535353">
+                <!-- Subir imagen -->
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageUpload"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/settings_question"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/change_security_question"
+                    android:id="@+id/textChangeSecurityQuestion"
+                    android:gravity="center_vertical" />
+            </TableRow>
+            <TableRow android:padding="10dp"
+                android:clickable="true"
+                android:onClick="OnClickChangeAgent"
+                android:showDividers="end"
+                android:divider="#ff535353">
+                <!-- Ayuda-->
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageHelp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/settings_agent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/change_agent"
+                    android:id="@+id/textChangeAgent"
+                    android:gravity="center_vertical" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

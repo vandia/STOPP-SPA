@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xmlns:android="http://schemas.android.com/apk/res/android">
+    <template name="user">%user%</template>
+    <template name="feeling">%feeling%</template>
+    <template name="problem">%problem%</template>
+</templates>
